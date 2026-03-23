@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D44D6C8F-1A29-4796-930F-B37ADB539EA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeyticAuth.AspNetCore.Authentication", "src\ZeyticAuth.AspNetCore.Authentication\ZeyticAuth.AspNetCore.Authentication.csproj", "{D05B1B5F-D560-492A-A566-95888C8C5C43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeyticAuth.AspNetCore.Authentication.Tests", "src\ZeyticAuth.AspNetCore.Authentication.Tests\ZeyticAuth.AspNetCore.Authentication.Tests.csproj", "{0A3281B7-4673-4FCC-A138-E72E92DCD57D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{E138A45B-E985-4364-AA8A-86467AEE5693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample-blazor", "samples\sample-blazor\sample-blazor.csproj", "{8B6A343E-7691-468E-89D0-7A3EFACAADC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample-mvc", "samples\sample-mvc\sample-mvc.csproj", "{64A4D492-3ABB-410C-AE0D-6F9A8881B100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample-wasm", "samples\sample-wasm\sample-wasm.csproj", "{CFF04115-513A-4A6F-BA07-C45EC28BDB63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample", "samples\sample\sample.csproj", "{72761E5E-12B5-4FB8-AE83-77AEEE38D864}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D05B1B5F-D560-492A-A566-95888C8C5C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05B1B5F-D560-492A-A566-95888C8C5C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05B1B5F-D560-492A-A566-95888C8C5C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05B1B5F-D560-492A-A566-95888C8C5C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A3281B7-4673-4FCC-A138-E72E92DCD57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3281B7-4673-4FCC-A138-E72E92DCD57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3281B7-4673-4FCC-A138-E72E92DCD57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3281B7-4673-4FCC-A138-E72E92DCD57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6A343E-7691-468E-89D0-7A3EFACAADC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6A343E-7691-468E-89D0-7A3EFACAADC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6A343E-7691-468E-89D0-7A3EFACAADC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6A343E-7691-468E-89D0-7A3EFACAADC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A4D492-3ABB-410C-AE0D-6F9A8881B100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A4D492-3ABB-410C-AE0D-6F9A8881B100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A4D492-3ABB-410C-AE0D-6F9A8881B100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A4D492-3ABB-410C-AE0D-6F9A8881B100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF04115-513A-4A6F-BA07-C45EC28BDB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF04115-513A-4A6F-BA07-C45EC28BDB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF04115-513A-4A6F-BA07-C45EC28BDB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF04115-513A-4A6F-BA07-C45EC28BDB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72761E5E-12B5-4FB8-AE83-77AEEE38D864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72761E5E-12B5-4FB8-AE83-77AEEE38D864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72761E5E-12B5-4FB8-AE83-77AEEE38D864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72761E5E-12B5-4FB8-AE83-77AEEE38D864}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D05B1B5F-D560-492A-A566-95888C8C5C43} = {D44D6C8F-1A29-4796-930F-B37ADB539EA3}
+		{0A3281B7-4673-4FCC-A138-E72E92DCD57D} = {D44D6C8F-1A29-4796-930F-B37ADB539EA3}
+		{8B6A343E-7691-468E-89D0-7A3EFACAADC1} = {E138A45B-E985-4364-AA8A-86467AEE5693}
+		{64A4D492-3ABB-410C-AE0D-6F9A8881B100} = {E138A45B-E985-4364-AA8A-86467AEE5693}
+		{CFF04115-513A-4A6F-BA07-C45EC28BDB63} = {E138A45B-E985-4364-AA8A-86467AEE5693}
+		{72761E5E-12B5-4FB8-AE83-77AEEE38D864} = {E138A45B-E985-4364-AA8A-86467AEE5693}
+	EndGlobalSection
+EndGlobal

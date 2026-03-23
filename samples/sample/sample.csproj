@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>sample</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <WarnOnPackingNonPackableProject>false</WarnOnPackingNonPackableProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference
+      Include="..\..\src\ZeyticAuth.AspNetCore.Authentication\ZeyticAuth.AspNetCore.Authentication.csproj" />
+  </ItemGroup>
+
+</Project>
